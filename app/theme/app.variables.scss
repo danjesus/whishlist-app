@@ -26,10 +26,19 @@
 // are different per mode.
 
 $colors: (
-  primary:    #387ef5,
-  secondary:  #32db64,
+  primary:    #B22D20,
+  secondary:  #F25B3B,
   danger:     #f53d3d,
   light:      #f4f4f4,
   dark:       #222,
-  favorite:   #69BB7B
+  favorite:   #FF6840
 );
+
+$background-color: #fff;
+$text-color: #731D14;
+
+$label-md-text-color: #731D14;
+$label-ios-text-color: #731D14;
+
+$text-input-md-background-color: #731D14;
+$text-input-ios-background-color: #731D14;

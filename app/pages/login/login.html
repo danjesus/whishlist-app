@@ -1,20 +1,24 @@
+<ion-header>
+  <ion-navbar secondary>
+    <ion-title>Whishlist App</ion-title>
+  </ion-navbar>
+</ion-header>
+
 <ion-content padding>
 
   <form id="login-form1" class="list">
-
-    <ion-list no-lines>
+    <ion-list inset>
       <ion-item>
-        <ion-label floating>Username</ion-label>
-        <ion-input></ion-input>
+        <ion-label stacked>Email</ion-label>
+        <ion-input type="email"></ion-input>
       </ion-item>
-
       <ion-item>
-        <ion-label floating>Password</ion-label>
+        <ion-label stacked>Password</ion-label>
         <ion-input type="password"></ion-input>
       </ion-item>
     </ion-list>
 
     <button id="login-button1" primary block>log in</button>
-    <button (click)="createAccount()" favorite block>create an account</button>
+    <button detail-push (click)="createAccount()" favorite block>create an account</button>
   </form>
 </ion-content>
